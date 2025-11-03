@@ -32,7 +32,7 @@ async def simulate_task(task_id: int):
 async def concurrent_fetch():
     """
     Demonstrates concurrent async HTTP requests
-    Fetches data from multiple URLs concurrently
+    Fetches data from multiple URLs concurrently.
     """
     urls = [
         "https://jsonplaceholder.typicode.com/posts/1",
